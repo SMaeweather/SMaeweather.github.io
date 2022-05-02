@@ -1,0 +1,114 @@
+/* https://coolors.co/01161e-124559-598392-d5e4f5-dac4f7 */
+
+section#intro {
+  background-color: #240046;
+  color: white;
+  height: 100vh;
+  font-family: "Bitter", serif;
+}
+
+#intro h1 {
+  font-size: 90px;
+  font-family: "Dancing Script", cursive;
+  animation-name: fadein;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#intro code {
+  margin-top: 20px;
+  opacity: 0;
+  font-size: 30px;
+  color: #ff6d00;
+  animation-name: fadein;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#intro h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 2;
+  }
+}
+
+#intro #arrowDown {
+  font-size: 95px;
+  color: #f9903f;
+  opacity: 1;
+  animation-name: fadein;
+  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  position: absolute;
+  bottom: 45px;
+  left: calc(50% - 37px);
+}
+
+#about {
+  background: #3c096c;
+  padding: 30px;
+  color: white;
+}
+
+#about h2 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+
+#contact {
+  background-color: #7711dd;
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: justify-content-end;
+}
+
+#contact h3 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+
+#portfolio {
+  background: #5a189a;
+  padding: 30px;
+  color: white;
+}
+
+#portfolio h5 {
+  font-size: 40px;
+  font-family: "Dancing Script", cursive;
+}
+
+/*#portfolio h6 {
+  font-size: 40px;
+  font-family: "bitter", serif;
+  text-align: center;
+  color: rgb(252, 160, 12);
+}*/
+
+#card {
+  font-size: 20px;
+  font-family: "bitter", serif;
+  color: rgb(252, 160, 12); 
+  text-align: center;
+}
+
+#spanStyle {
+  position: absolute;
+  top: 50%;
+  left: 50%
+  transform: translate(-50%, -50%;
+}
+
+
